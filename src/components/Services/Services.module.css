@@ -1,0 +1,21 @@
+.section{
+    background-color: var(--color-blue);
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.section p{
+    text-align: center;
+    color: var(--color-white);
+    font-size: 24px;
+    width: 70%;
+}
+
+.cards{
+    display: flex;
+    gap: 24px;
+    margin: 5vh 0;
+}

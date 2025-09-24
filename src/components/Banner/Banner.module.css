@@ -1,0 +1,20 @@
+.banner{
+    display: flex;
+    height: 80vh;
+    align-items: center;
+    justify-content: center;
+
+    background-image: url('./imgs/Banner.jpg');
+    background-size: cover;     
+    background-position: center; 
+    background-repeat: no-repeat;
+}
+
+.banner h1{
+    width: 40vw;
+    text-align: center;
+    font-size: 36px;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: var(--color-white);
+    padding: 15px;
+}

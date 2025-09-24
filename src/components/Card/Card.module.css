@@ -1,0 +1,30 @@
+.card {
+    width: 250px; 
+    border-radius: 20px;
+    overflow: hidden; 
+    background: linear-gradient(135deg, #0a0a0a, #1a1a1a);
+    box-shadow: 0 8px 20px rgba(0,0,0,0.3);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    cursor: pointer;
+}
+
+.card:hover {
+    transform: translateY(-8px); 
+    box-shadow: 0 12px 28px rgba(0,0,0,0.5);
+}
+
+.header {
+    background: linear-gradient(90deg, var(--color-blue), var(--color-white));
+    padding: 16px;
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+    color: #000;
+}
+.body {
+    padding: 20px;
+    font-size: 16px;
+    line-height: 1.4;
+    text-align: center;
+    color: #ddd;
+}
